@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+env/
+*.whl
+nul
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.cert
+*.p12
+*.jks
+credentials.json
+service-account*.json
+*secret*key*
+token.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# Docker
+pgdata/
+docker/pgdata/
+
+# Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Misc
+*.bak
+*.tmp
+*.temp
+
+# Old screenshots in root (use docs/screenshots/ instead)
+/document-detail.jpg
+/document-error.png
+/features-section.png
+/hover-card.png
+/landing-apppreview.png
+/landing-bottom.png
+/landing-full.png
+/search-page.png
+/search-ratelimit.png
+/search-results.jpg
+
+# Duplicate screenshot
+docs/screenshots/02-landing-features.png
